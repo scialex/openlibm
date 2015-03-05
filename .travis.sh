@@ -6,6 +6,10 @@ host)
 	uname -a
 	export LOADER=
 	make ;;
+i386)
+    uname -a
+    export LOADER=
+    make ARCH=i386 ;;
 arm32)
 	sudo bash -c 'echo >> /etc/apt/sources.list "deb http://archive.ubuntu.com/ubuntu/ trusty main restricted universe"'
 	sudo apt-get update

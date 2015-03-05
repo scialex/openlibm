@@ -4,6 +4,7 @@ os:
     - linux
 env:
     - TARGET=host
+    - TARGET=i386
     - TARGET=arm32
 matrix:
     exclude:
